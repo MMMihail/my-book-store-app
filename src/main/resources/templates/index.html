@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/commons::head"></head>
+<body>
+<header th:replace="fragments/commons::nav"></header>
+<main>
+    <section>
+        <div class="container bg-blur rounded mt-5 ">
+            <h1>WE ARE THE STORY SHOP</h1>
+            <hr class="my-3 bg-white w-50"/>
+
+            <p class="h4">
+                Where your imagination comes alive!</p>
+            <hr class="my-3 bg-white w-75"/>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>This is book 1</h3>
+                    <p>Book 1 info</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>This is book 2</h3>
+                    <p>Book 2 info</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>This is book 3</h3>
+                    <p>Book 3 info</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer th:replace="fragments/commons::footer"></footer>
+</body>
+</html>
